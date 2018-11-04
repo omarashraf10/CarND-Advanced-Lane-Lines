@@ -111,3 +111,18 @@ i applyied previous steps to each frame of the video and writing the radious of 
 Here's a link to my video result 
 
 https://drive.google.com/file/d/1CYPbtlnyRuO6iTYhTrj9bGK3E4vZyqbh/view?usp=sharing
+
+
+### Discussion
+
+i faced some problems in determining the src and dst points of the prespective transmision as when i applied my algorithm
+
+in the video there is a frame fails so i adjusted the dst points ,
+
+another problem is when the right lane appears at the top of the image not at the bottom so i chanched the histogram to take 3/2 of the
+
+image instead of its bottom half.
+
+i think my pipeline may fail when the right lane will be completely disappear in a frame , so i must remain my previous drawing and 
+
+apply it to this frame .
